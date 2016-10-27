@@ -1,0 +1,28 @@
+{
+    "name": "todomove/oauth2-todoist",
+    "description": "A Todoist.com provider for league/oauth2-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashley Hindle",
+            "email": "hey@ashleyhindle.com"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "todoist"
+    ],
+    "autoload": {
+        "psr-4": {
+            "TodoMove\\OAuth2\\Client\\Provider\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "league/oauth2-client": "~1.4"
+    }
+}
