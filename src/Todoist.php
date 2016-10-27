@@ -55,25 +55,4 @@ class Todoist extends AbstractProvider
         return $user;
     }
 
-    /**
-     * Requests resource owner details.
-     *
-     * @param  AccessToken $token
-     * @return mixed
-     */
-//    protected function fetchResourceOwnerDetails(AccessToken $token)
-//    {
-//        $url = $this->getResourceOwnerDetailsUrl($token);
-//
-//        $request = $this->getAuthenticatedRequest(self::METHOD_POST, $url, $token, [
-//            'body' => [
-//                'token' => $token->getToken(),
-//                'sync_token' => '*',
-//                'resource_types' => '["user"]'
-//            ],
-//        ]);
-//
-//        return $this->getResponse($request);
-//    }
-
 }
